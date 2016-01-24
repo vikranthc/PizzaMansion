@@ -3,8 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{AD293AE6-AEF1-44FD-B36F-49E0CE902685}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMansion.DomainModels", "src\PizzaMansion.DomainModels\PizzaMansion.DomainModels.csproj", "{FC5E3771-B78B-48E2-9F13-534EABAB036A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMansion.Interfaces", "src\PizzaMansion.Interfaces\PizzaMansion.Interfaces.csproj", "{31FAD69A-CE13-4DDB-AD46-F25E542875BC}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC5E3771-B78B-48E2-9F13-534EABAB036A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC5E3771-B78B-48E2-9F13-534EABAB036A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC5E3771-B78B-48E2-9F13-534EABAB036A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC5E3771-B78B-48E2-9F13-534EABAB036A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31FAD69A-CE13-4DDB-AD46-F25E542875BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31FAD69A-CE13-4DDB-AD46-F25E542875BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31FAD69A-CE13-4DDB-AD46-F25E542875BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31FAD69A-CE13-4DDB-AD46-F25E542875BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC5E3771-B78B-48E2-9F13-534EABAB036A} = {AD293AE6-AEF1-44FD-B36F-49E0CE902685}
+		{31FAD69A-CE13-4DDB-AD46-F25E542875BC} = {AD293AE6-AEF1-44FD-B36F-49E0CE902685}
 	EndGlobalSection
 EndGlobal
