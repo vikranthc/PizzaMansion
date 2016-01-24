@@ -7,3 +7,4 @@ before_build:
 build:
   project: PizzaMansion.sln
   verbosity: minimal
+  nodeReuse: false
