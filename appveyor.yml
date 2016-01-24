@@ -1,0 +1,8 @@
+configuration: Release
+
+before_build:
+  - .paket\paket.bootstrapper.exe
+  - .paket\paket.exe restore
+
+build:
+  verbosity: minimal
