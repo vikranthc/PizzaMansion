@@ -1,0 +1,24 @@
+{
+  "name": "pizzamansion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikranthc/PizzaMansion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikranthc/PizzaMansion/issues"
+  },
+  "homepage": "https://github.com/vikranthc/PizzaMansion#readme",
+  "devDependencies": {
+    "bower": "^1.7.2",
+    "gulp": "^3.9.0",
+    "karma": "^0.13.19"
+  }
+}
