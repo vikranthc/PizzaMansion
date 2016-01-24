@@ -1,7 +1,2 @@
-bootstrap
-Microsoft.AspNet.Web.Optimization
-Microsoft.AspNet.WebApi
-Microsoft.AspNet.WebApi.HelpPage
 Microsoft.CodeDom.Providers.DotNetCompilerPlatform
-Modernizr
-Respond
+Microsoft.Net.Compilers
