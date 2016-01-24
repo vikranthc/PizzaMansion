@@ -5,4 +5,5 @@ before_build:
   - .paket\paket.exe restore
 
 build:
+  project: PizzaMansion.sln
   verbosity: minimal
