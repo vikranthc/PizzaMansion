@@ -47,6 +47,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMansion.SharedKernel",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMansion.UnitTests", "src\PizzaMansion.UnitTests\PizzaMansion.UnitTests.csproj", "{AFD8E8D4-C111-43F8-B1EC-43222442B321}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaMansion.Api", "src\PizzaMansion.Api\PizzaMansion.Api.csproj", "{804EF0F9-6970-455A-BEA0-78C135DB5727}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{263A75EB-C671-4773-883A-04A0FCA4AE6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +93,10 @@ Global
 		{AFD8E8D4-C111-43F8-B1EC-43222442B321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFD8E8D4-C111-43F8-B1EC-43222442B321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFD8E8D4-C111-43F8-B1EC-43222442B321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{804EF0F9-6970-455A-BEA0-78C135DB5727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804EF0F9-6970-455A-BEA0-78C135DB5727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804EF0F9-6970-455A-BEA0-78C135DB5727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804EF0F9-6970-455A-BEA0-78C135DB5727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,5 +111,6 @@ Global
 		{EAD71C8A-097A-4FCD-8DFB-0A7DD78E61E2} = {A714DCC9-4477-43CA-BFC3-53ECCCF8671A}
 		{2FA0A699-1A49-4050-AB5A-ADC18B3CCF55} = {65A03E46-EF13-40EE-A884-E64668D5166F}
 		{AFD8E8D4-C111-43F8-B1EC-43222442B321} = {EDF73B92-BFA8-4A55-B9A7-628A85EC36B7}
+		{804EF0F9-6970-455A-BEA0-78C135DB5727} = {263A75EB-C671-4773-883A-04A0FCA4AE6C}
 	EndGlobalSection
 EndGlobal
