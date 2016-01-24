@@ -1,6 +1,6 @@
 language: csharp
 solution: PizzaMansion.sln
 install:
-  - .paket/paket.bootstrapper.exe
-  - .paket/paket.exe restore
+  - sudo .paket/paket.bootstrapper.exe
+  - sudo .paket/paket.exe restore
   
